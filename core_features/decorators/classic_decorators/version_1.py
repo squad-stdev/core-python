@@ -9,7 +9,7 @@ class Asterisk(object):
         print("****************************")
         self.func(*args, **kwargs)
         print("****************************")
-
+ 
     def __init__(self, func, *args, **kwargs):
         print("AT INIT: ", func, args, kwargs)
         self.func = func
